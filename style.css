@@ -1,0 +1,71 @@
+.list-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.5s;
+  opacity: 0;
+  padding: 0.25em 0;
+}
+
+hr {
+  transition: opacity 0.5s;
+  opacity: 0;
+  border: 0px solid;
+  background-color: rgb(194, 194, 194);
+  background-color: rgb(194, 194, 194);
+  height: 2px;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 40rem;
+  height: 80vh;
+  padding-bottom: 2rem;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+#list {
+  height: 70%;
+  padding: 0;
+  width: 80%;
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: calc(1vw + 12px);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(30, 28, 37);
+}
+
+input, button{
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+.normal-font {
+  font-size: 0.75em;
+}
+
+.fadeIn {
+  opacity: 100%;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+.trash{
+  background-color: inherit;
+  border: none;
+}
